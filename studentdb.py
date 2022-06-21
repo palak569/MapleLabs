@@ -28,8 +28,8 @@ class Table:
             return None
 
     def insert(self, data):
-        self.db.insert(data)
-        #print(self.db)
+        item = self.db.insert(data)
+        return item
 
     def update(self, id, data):
         items = self.db.update(data, doc_ids=[id])
@@ -62,7 +62,7 @@ class StudentDB:
         stud.insert(data)
 
     def post_subject_details(self, data):
-        sub.insert(data)
+        return sub.insert(data)
 
     def post_performance_details(self, data):
         perf.insert(data)
@@ -77,7 +77,7 @@ class StudentDB:
         perf.update(id, data)
 
 
-# std = StudentDB()
+std = StudentDB()
 
 # std.post_student_details({'name': 'smith', 'dob': '10-05-2002', 'phone': '9448171526'})
 # std.post_subject_details({'name': 'Science', 'passing_marks': 35})
