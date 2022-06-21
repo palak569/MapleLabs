@@ -1,1 +1,80 @@
-{"Student": {"1": {"name": "bob", "dob": "10-09-2003", "phone": 9141990000}, "2": {"name": "Smith", "dob": "10-09-2003", "phone": 9141990000}, "3": {"name": "max", "dob": "10-05-2002", "phone": "9448171526"}, "4": {"name": "palak", "dob": "28-09-2000", "phone": "9141009999"}}, "Subject": {"1": {"name": "english", "passing_marks": 35}, "2": {"name": "maths", "passing_marks": 35}, "3": {"name": "Science", "passing_marks": 35}, "4": {"sub_name": "Hindi", "passing_marks": 35}}, "Performance": {"1": {"sub_details": [{"sub_id": 1, "obtained_marks": 40}, {"sub_id": 4, "obtained_marks": 20}]}, "2": {"sub_details": [{"sub_id": 1, "obtained_marks": 45}]}, "3": {"sub_details": [{"sub_id": 1, "obtained_marks": 40}]}, "4": {"sub_details": [{"sub_id": 1, "obtained_marks": 36}]}}}
+{
+  "Student": {
+    "1": {
+      "name": "bob",
+      "dob": "10-09-2003",
+      "phone": 9141990000
+    },
+    "2": {
+      "name": "Smith",
+      "dob": "10-09-2003",
+      "phone": 9141990000
+    },
+    "3": {
+      "name": "max",
+      "dob": "10-05-2002",
+      "phone": "9448171526"
+    },
+    "4": {
+      "name": "palak",
+      "dob": "28-09-2000",
+      "phone": "9141009999"
+    }
+  },
+  "Subject": {
+    "1": {
+      "name": "english",
+      "passing_marks": 35
+    },
+    "2": {
+      "name": "maths",
+      "passing_marks": 35
+    },
+    "3": {
+      "name": "Science",
+      "passing_marks": 35
+    },
+    "4": {
+      "sub_name": "Hindi",
+      "passing_marks": 35
+    }
+  },
+  "Performance": {
+    "1": {
+      "sub_details": [
+        {
+          "sub_id": 1,
+          "obtained_marks": 40
+        },
+        {
+          "sub_id": 4,
+          "obtained_marks": 20
+        }
+      ]
+    },
+    "2": {
+      "sub_details": [
+        {
+          "sub_id": 1,
+          "obtained_marks": 45
+        }
+      ]
+    },
+    "3": {
+      "sub_details": [
+        {
+          "sub_id": 1,
+          "obtained_marks": 40
+        }
+      ]
+    },
+    "4": {
+      "sub_details": [
+        {
+          "sub_id": 1,
+          "obtained_marks": 36
+        }
+      ]
+    }
+  }
+}
